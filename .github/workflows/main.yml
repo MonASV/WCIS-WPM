@@ -14,5 +14,5 @@ jobs:
         server: ${{ secrets.ftp_server }}
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: html/sanchez
+        server-dir: html/sanchez/
         protocol: ftps
