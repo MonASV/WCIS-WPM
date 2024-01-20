@@ -13,4 +13,4 @@ jobs:
       with:
         server: dev.kunden.daniel-hoover.de
         username: F15172424241
-        password: ${{ secrets.ftp_password }}
+        password: ${{ ftp_password }}
