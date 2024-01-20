@@ -11,6 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: dev.kunden.daniel-hoover.de
-        username: F15172424241
+        server: ${{ ftp_server }}
+        username: ${{ ftp_username }}
         password: ${{ ftp_password }}
